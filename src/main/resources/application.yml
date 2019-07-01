@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    data-username: root
+    data-password: root
+    url: jdbc:mysql://localhost:3306/mvc?serverTimezone=UTC
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
